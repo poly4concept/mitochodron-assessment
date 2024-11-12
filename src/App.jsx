@@ -11,7 +11,7 @@ function App() {
     { path: "*", element: <NotFound /> },
   ];
   return (
-    <div>
+    <div className="font-roboto">
       <Routes>
         <Route element={<Layout />}>
           {routes.map((route) => (

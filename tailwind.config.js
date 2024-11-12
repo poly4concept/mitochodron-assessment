@@ -7,6 +7,9 @@ export default {
         "primary-black": "#252624",
         outline: "#C0C9C0",
       },
+      fontFamily: {
+        roboto: ["Roboto", "sans-serif"],
+      },
     },
   },
   plugins: [],
