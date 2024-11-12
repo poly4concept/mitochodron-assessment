@@ -5,14 +5,14 @@ import SubscriptionCard from "./SubscriptionCard";
 
 const SideNav = () => {
   return (
-    <div className="hidden lg:flex flex-col w-full border-r-[1px] border-outline lg:min-h-[80vh] pt-6">
+    <section className="hidden lg:flex flex-col w-full border-r-[1px] border-outline lg:min-h-[80vh] pt-6">
       <div className="px-6">
         <ProfileCard />
         <SubscriptionCard />
         <SocialsCard />
       </div>
       <Footer />
-    </div>
+    </section>
   );
 };
 
